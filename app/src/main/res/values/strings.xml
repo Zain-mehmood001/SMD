@@ -5,119 +5,128 @@
     <string name="q_1_option_b">Graphics Card</string>
     <string name="q_1_option_c">Control Unit</string>
     <string name="q_1_option_d">Network Interface Card</string>
-
-    <string name="q_2">What is the time complexity of a binary search algorithm?</string>
-    <string name="q_2_option_a">O(n)</string>
-    <string name="q_2_option_b">O(log n)</string>
-    <string name="q_2_option_c">O(n log n)</string>
-    <string name="q_2_option_d">O(n^2)</string>
-
-    <string name="q_3">In object-oriented programming, what does "inheritance" refer to?</string>
-    <string name="q_3_option_a">Copying code from one class to another</string>
-    <string name="q_3_option_b">Sharing methods between unrelated classes</string>
-    <string name="q_3_option_c">Deriving a new class from an existing one</string>
-    <string name="q_3_option_d">None of the above</string>
-
-    <string name="q_4">Which protocol is used to send emails?</string>
-    <string name="q_4_option_a">FTP</string>
-    <string name="q_4_option_b">HTTP</string>
-    <string name="q_4_option_c">SMTP</string>
-    <string name="q_4_option_d">TCP</string>
-
-    <string name="q_5">What is the primary purpose of an operating system?</string>
-    <string name="q_5_option_a">To perform arithmetic operations</string>
-    <string name="q_5_option_b">To manage hardware and software resources</string>
-    <string name="q_5_option_c">To connect to the internet</string>
-    <string name="q_5_option_d">To develop software applications</string>
-
-    <string name="q_6">Which data structure uses the Last-In-First-Out (LIFO) method?</string>
-    <string name="q_6_option_a">Queue</string>
-    <string name="q_6_option_b">Array</string>
-    <string name="q_6_option_c">Stack</string>
-    <string name="q_6_option_d">Linked List</string>
-
-    <string name="q_7">What is the function of the "git commit" command in Git?</string>
-    <string name="q_7_option_a">Upload changes to the remote repository</string>
-    <string name="q_7_option_b">Save changes to the local repository</string>
-    <string name="q_7_option_c">Merge changes from another branch</string>
-    <string name="q_7_option_d">Create a new branch</string>
-
-    <string name="q_8">What does SQL stand for?</string>
-    <string name="q_8_option_a">Simple Query Language</string>
-    <string name="q_8_option_b">Structured Query Language</string>
-    <string name="q_8_option_c">Standard Query Language</string>
-    <string name="q_8_option_d">Systematic Query Language</string>
-
-    <string name="q_9">Which of the following is NOT a programming paradigm?</string>
-    <string name="q_9_option_a">Object-oriented programming</string>
-    <string name="q_9_option_b">Functional programming</string>
-    <string name="q_9_option_c">Declarative programming</string>
-    <string name="q_9_option_d">Relational programming</string>
-
-    <string name="q_10">What is an IP address?</string>
-    <string name="q_10_option_a">A hardware address for a network card</string>
-    <string name="q_10_option_b">A unique string identifier for a computer on a network</string>
-    <string name="q_10_option_c">A network protocol</string>
-    <string name="q_10_option_d">A wireless transmission standard</string>
-
-    <string name="q_11">Which of the following sorting algorithms has the worst-case time complexity of O(n^2)?</string>
-    <string name="q_11_option_a">Merge Sort</string>
-    <string name="q_11_option_b">Quick Sort</string>
-    <string name="q_11_option_c">Bubble Sort</string>
-    <string name="q_11_option_d">Heap Sort</string>
-
-    <string name="q_12">What does the acronym HTTP stand for?</string>
-    <string name="q_12_option_a">HyperText Transfer Protocol</string>
-    <string name="q_12_option_b">Hyperlink Text Transfer Protocol</string>
-    <string name="q_12_option_c">High Transfer Text Protocol</string>
-    <string name="q_12_option_d">HyperTransfer Text Protocol</string>
-
-    <string name="q_13">Which of the following is an example of a compiled programming language?</string>
-    <string name="q_13_option_a">Python</string>
-    <string name="q_13_option_b">JavaScript</string>
-    <string name="q_13_option_c">Java</string>
-    <string name="q_13_option_d">HTML</string>
-
-    <string name="q_14">Which layer of the OSI model is responsible for routing packets across a network?</string>
-    <string name="q_14_option_a">Physical Layer</string>
-    <string name="q_14_option_b">Data Link Layer</string>
-    <string name="q_14_option_c">Network Layer</string>
-    <string name="q_14_option_d">Transport Layer</string>
-
-    <string name="q_15">Which type of database stores data in tables with rows and columns?</string>
-    <string name="q_15_option_a">Graph Database</string>
-    <string name="q_15_option_b">Document Database</string>
-    <string name="q_15_option_c">Relational Database</string>
-    <string name="q_15_option_d">Key-Value Store</string>
-
-    <string name="q_16">What is the output of the boolean expression (true AND false) OR true?</string>
-    <string name="q_16_option_a">true</string>
-    <string name="q_16_option_b">false</string>
-    <string name="q_16_option_c">null</string>
-    <string name="q_16_option_d">undefined</string>
-
-    <string name="q_17">Which sorting algorithm is considered the fastest on average for large datasets?</string>
-    <string name="q_17_option_a">Merge Sort</string>
-    <string name="q_17_option_b">Quick Sort</string>
-    <string name="q_17_option_c">Selection Sort</string>
-    <string name="q_17_option_d">Insertion Sort</string>
-
-    <string name="q_18">What is the purpose of the Java Virtual Machine (JVM)?</string>
-    <string name="q_18_option_a">To compile Java code to machine code</string>
-    <string name="q_18_option_b">To interpret Java bytecode</string>
-    <string name="q_18_option_c">To store data in memory</string>
-    <string name="q_18_option_d">To manage network connections</string>
-
-    <string name="q_19">Which data structure is most efficient for searching and insertion operations?</string>
-    <string name="q_19_option_a">Array</string>
-    <string name="q_19_option_b">Stack</string>
-    <string name="q_19_option_c">Linked List</string>
-    <string name="q_19_option_d">Hash Table</string>
-
-    <string name="q_20">Which of the following is an example of a NoSQL database?</string>
-    <string name="q_20_option_a">MySQL</string>
-    <string name="q_20_option_b">PostgreSQL</string>
-    <string name="q_20_option_c">MongoDB</string>
-    <string name="q_20_option_d">SQLite</string>
-
+    <string-array name="quiz_answers">
+        <item>Control Unit</item>
+        <item>O(log n)</item>
+        <item>Deriving a new class from an existing one</item>
+        <item>SMTP</item>
+        <item>To manage hardware and software resources</item>
+        <item>Queue</item>
+        <item>Save changes to the local repository</item>
+        <item>Structured Query Language</item>
+        <item>Relational programming</item>
+        <item>A unique string identifier for a computer on a network</item>
+        <item>Bubble Sort</item>
+        <item>HyperText Transfer Protocol</item>
+        <item>Java</item>
+        <item>Network Layer</item>
+        <item>Relational Database</item>
+        <item>true</item>
+        <item>Quick Sort</item>
+        <item>To interpret Java bytecode</item>
+        <item>Hash Table</item>
+        <item>MongoDB</item>
+    </string-array>
+    <string-array name="quiz_questions">
+        <item>Which of the following is a primary component of a computer\'s Central Processing Unit (CPU)?</item>
+        <item>Hard Drive</item>
+        <item>Graphics Card</item>
+        <item>Control Unit</item>
+        <item>Network Interface Card</item>
+        <item>What is the time complexity of a binary search algorithm?</item>
+        <item>O(n)</item>
+        <item>O(log n)</item>
+        <item>O(n log n)</item>
+        <item>O(n^2)</item>
+        <item>In object-oriented programming, what does "inheritance" refer to?</item>
+        <item>Copying code from one class to another</item>
+        <item>Sharing methods between unrelated classes</item>
+        <item>Deriving a new class from an existing one</item>
+        <item>None of the above</item>
+        <item>Which protocol is used to send emails?</item>
+        <item>FTP</item>
+        <item>HTTP</item>
+        <item>SMTP</item>
+        <item>TCP</item>
+        <item>What is the primary purpose of an operating system?</item>
+        <item>To perform arithmetic operations</item>
+        <item>To manage hardware and software resources</item>
+        <item>To connect to the internet</item>
+        <item>To develop software applications</item>
+        <item>Which data structure uses the Last-In-First-Out (LIFO) method?</item>
+        <item>Queue</item>
+        <item>Array</item>
+        <item>Stack</item>
+        <item>Linked List</item>
+        <item>What is the function of the "git commit" command in Git?</item>
+        <item>Upload changes to the remote repository</item>
+        <item>Save changes to the local repository</item>
+        <item>Merge changes from another branch</item>
+        <item>Create a new branch</item>
+        <item>What does SQL stand for?</item>
+        <item>Simple Query Language</item>
+        <item>Structured Query Language</item>
+        <item>Standard Query Language</item>
+        <item>Systematic Query Language</item>
+        <item>Which of the following is NOT a programming paradigm?</item>
+        <item>Object-oriented programming</item>
+        <item>Functional programming</item>
+        <item>Declarative programming</item>
+        <item>Relational programming</item>
+        <item>What is an IP address?</item>
+        <item>A hardware address for a network card</item>
+        <item>A unique string identifier for a computer on a network</item>
+        <item>A network protocol</item>
+        <item>A wireless transmission standard</item>
+        <item>Which of the following sorting algorithms has the worst-case time complexity of O(n^2)?</item>
+        <item>Merge Sort</item>
+        <item>Quick Sort</item>
+        <item>Bubble Sort</item>
+        <item>Heap Sort</item>
+        <item>What does the acronym HTTP stand for?</item>
+        <item>HyperText Transfer Protocol</item>
+        <item>Hyperlink Text Transfer Protocol</item>
+        <item>High Transfer Text Protocol</item>
+        <item>HyperTransfer Text Protocol</item>
+        <item>Which of the following is an example of a compiled programming language?</item>
+        <item>Python</item>
+        <item>JavaScript</item>
+        <item>Java</item>
+        <item>HTML</item>
+        <item>Which layer of the OSI model is responsible for routing packets across a network?</item>
+        <item>Physical Layer</item>
+        <item>Data Link Layer</item>
+        <item>Network Layer</item>
+        <item>Transport Layer</item>
+        <item>Which type of database stores data in tables with rows and columns?</item>
+        <item>Graph Database</item>
+        <item>Document Database</item>
+        <item>Relational Database</item>
+        <item>Key-Value Store</item>
+        <item>What is the output of the boolean expression (true AND false) OR true?</item>
+        <item>true</item>
+        <item>false</item>
+        <item>null</item>
+        <item>undefined</item>
+        <item>Which sorting algorithm is considered the fastest on average for large datasets?</item>
+        <item>Merge Sort</item>
+        <item>Quick Sort</item>
+        <item>Selection Sort</item>
+        <item>Insertion Sort</item>
+        <item>What is the purpose of the Java Virtual Machine (JVM)?</item>
+        <item>To compile Java code to machine code</item>
+        <item>To interpret Java bytecode</item>
+        <item>To store data in memory</item>
+        <item>To manage network connections</item>
+        <item>Which data structure is most efficient for searching and insertion operations?</item>
+        <item>Array</item>
+        <item>Stack</item>
+        <item>Linked List</item>
+        <item>Hash Table</item>
+        <item>Which of the following is an example of a NoSQL database?</item>
+        <item>MySQL</item>
+        <item>PostgreSQL</item>
+        <item>MongoDB</item>
+        <item>SQLite</item>
+    </string-array>
 </resources>
