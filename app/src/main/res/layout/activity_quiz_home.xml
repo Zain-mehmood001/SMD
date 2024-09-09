@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:gravity="start"
     android:padding="20dp"
+    android:id="@+id/mainlayout"
     android:orientation="vertical"
     tools:context=".QuizHome">
     <RelativeLayout
@@ -16,6 +17,7 @@
             android:layout_marginBottom="60dp"
             android:layout_height="wrap_content">
             <TextView
+                android:id="@+id/scoreText"
                 android:layout_height="wrap_content"
                 android:layout_width="wrap_content"
                 android:text="Score: "
@@ -40,12 +42,35 @@
     <TextView
         android:id="@+id/question"
         android:textAlignment="center"
+        android:gravity="center"
         android:textSize="24sp"
         android:layout_width="wrap_content"
         android:text="@string/q_1"
         android:layout_height="140dp">
     </TextView>
-        <RadioGroup
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_height="140dp"
+        android:gravity="center"
+        android:text="Total Score: 100/100\nPercentage: 42%"
+        android:textAlignment="center"
+        android:textSize="24sp">
+    </TextView>
+    <Button
+        android:layout_width="wrap_content"
+        android:text="Reset"
+        android:layout_gravity="center"
+        android:id="@+id/reset"
+        android:visibility="gone"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+    <RadioGroup
             android:layout_width="wrap_content"
             android:id="@+id/options"
             android:layout_height="wrap_content">
@@ -79,19 +104,34 @@
         android:layout_width="match_parent"
         android:gravity="center"
         android:layout_height="wrap_content">
-    <Button
-        android:id="@+id/previous"
-        android:layout_width="wrap_content"
-        android:text="Previous"
-        android:layout_marginEnd="10dp"
-        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/previous"
+            android:layout_width="wrap_content"
+            android:text="Previous"
+            android:layout_marginEnd="10dp"
+            android:layout_height="wrap_content">
 
+        </Button>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Next"
+            android:layout_height="wrap_content">
+        </Button>
+    </LinearLayout>
+    <Button
+        android:id="@+id/show"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:text="Show Answer"
+        android:layout_height="wrap_content">
     </Button>
     <Button
-        android:id="@+id/next"
+        android:id="@+id/end_exam"
+        android:layout_gravity="center"
         android:layout_width="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:text="Next"
+        android:text="End Exam"
         android:layout_height="wrap_content">
-    </Button></LinearLayout>
+    </Button>
 </LinearLayout>
